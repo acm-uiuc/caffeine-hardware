@@ -170,6 +170,12 @@
 <text x="28" y="48.7" size="0.8128" layer="102" font="vector">RASPBERRY PI B+</text>
 <text x="1.2" y="48" size="0.8128" layer="102" font="vector">STATUS LED 1</text>
 <text x="1.2" y="43.2" size="0.8128" layer="102" font="vector">STATUS LED 2</text>
+<text x="0.8" y="46.9" size="0.8128" layer="102" font="vector">.</text>
+<text x="0.8" y="41.9" size="0.8128" layer="102" font="vector">.</text>
+<text x="7.1" y="36" size="0.8128" layer="102" font="vector">.</text>
+<text x="37.8" y="26.9" size="0.8128" layer="102" font="vector">.</text>
+<text x="8.8" y="11.6" size="0.8128" layer="102" font="vector">.</text>
+<text x="6.8" y="55" size="0.8128" layer="102" font="vector">.</text>
 </plain>
 <libraries>
 <library name="resistor">
