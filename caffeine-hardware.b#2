@@ -158,6 +158,24 @@
 <circle x="3.5" y="52.5" radius="3.101609375" width="0" layer="42"/>
 <circle x="61.5" y="52.5" radius="3.0886875" width="0" layer="42"/>
 <wire x1="45" y1="20" x2="46" y2="19" width="0" layer="20" curve="-90"/>
+<text x="51.2" y="0.8" size="1.016" layer="102" font="vector">TOP</text>
+<text x="63.8" y="8.6" size="0.8128" layer="102" font="vector" rot="R90">CAFFEINE CONTROL BOARD v0.1
+(c) 2016 ACM@UIUC - SIGBot </text>
+<text x="9.4" y="11.8" size="0.8128" layer="102" font="vector">EEPROM</text>
+<text x="2.4" y="11.4" size="0.8128" layer="102" font="vector" rot="R90">+-</text>
+<text x="9.9" y="22.7" size="0.8128" layer="102" font="vector" rot="R90">LED DISPLAY IN</text>
+<text x="9.8" y="34.1" size="0.8128" layer="102" font="vector" rot="R90">1</text>
+<text x="40.5" y="24.9" size="0.8128" layer="102" font="vector" rot="R90">1</text>
+<text x="40.7" y="6.5" size="0.8128" layer="102" font="vector" rot="R90">KEYPAD CONNECTOR OUT</text>
+<text x="28" y="48.7" size="0.8128" layer="102" font="vector">RASPBERRY PI B+</text>
+<text x="1.2" y="48" size="0.8128" layer="102" font="vector">STATUS LED 1</text>
+<text x="1.2" y="43.2" size="0.8128" layer="102" font="vector">STATUS LED 2</text>
+<text x="0.8" y="46.9" size="0.8128" layer="102" font="vector">.</text>
+<text x="0.8" y="41.9" size="0.8128" layer="102" font="vector">.</text>
+<text x="7.1" y="36" size="0.8128" layer="102" font="vector">.</text>
+<text x="37.8" y="26.9" size="0.8128" layer="102" font="vector">.</text>
+<text x="8.8" y="11.6" size="0.8128" layer="102" font="vector">.</text>
+<text x="6.8" y="55" size="0.8128" layer="102" font="vector">.</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -2134,4 +2152,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
