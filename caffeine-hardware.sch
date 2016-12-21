@@ -5354,192 +5354,6 @@ Source: http://document.sharpsma.com/files/GM1WA55311A_SS.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SOT23-3">
-<description>SOT23-3</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TO220V">
-<description>&lt;b&gt;TO 220 Vertical&lt;/b&gt; Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="3.048" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="-0.381" x2="-4.191" y2="-1.27" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="4.191" y1="-1.27" x2="5.08" y2="-0.381" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="-4.191" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.191" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
-<rectangle x1="-5.08" y1="2.032" x2="5.08" y2="3.048" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.334" y="0.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="5.334" y="0.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOIC-8">
-<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
-<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
-<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-2.6924" y="-1.8796" radius="0.127" width="0.2286" layer="21"/>
-<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-<text x="-2.54" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
-<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
-<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
-<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
-<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
-<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
-<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
-<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LABELED-PMOS">
-<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="0.6858" x2="-1.9812" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="0" x2="-1.9812" y2="-0.8382" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.2954" x2="-1.9812" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.905" x2="-1.9812" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="2.54" x2="-1.9812" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="1.8034" x2="-1.9812" y2="1.0922" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="1.8034" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.302" y="0.508"/>
-<vertex x="2.54" y="-0.762"/>
-<vertex x="1.778" y="0.508"/>
-</polygon>
-<wire x1="1.778" y1="-0.762" x2="1.6002" y2="-0.9398" width="0.1524" layer="94"/>
-<wire x1="3.4798" y1="-0.5842" x2="3.302" y2="-0.762" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.1778" y="0"/>
-<vertex x="-0.9398" y="-0.254"/>
-<vertex x="-0.9398" y="0.254"/>
-</polygon>
-<wire x1="0" y1="0" x2="-1.9812" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.7874" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.8034" x2="2.54" y2="0.5842" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOSFET-PCH" prefix="Q">
-<description>&lt;h3&gt;P-channel MOSFETs&lt;/h3&gt;
-&lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LABELED-PMOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-IRLML2244" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11153"/>
-<attribute name="VALUE" value="4.3A/20V/54mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-SI2309DS" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08285"/>
-<attribute name="VALUE" value="1.1A/60V/600mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-DMG2307L" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11308"/>
-<attribute name="VALUE" value="2.5A/30V/105mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-NDP6020P" package="TO220V">
-<connects>
-<connect gate="G$1" pin="D" pad="2"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-13060"/>
-<attribute name="VALUE" value="24A/20V/50mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-NDS8434" package="SOIC-8">
-<connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08355"/>
-<attribute name="VALUE" value="6.5A/20V/35mΩ"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="eagle-ltspice">
 <description>Default symbols for import LTspice schematics&lt;p&gt;
 2012-10-29 alf@cadsoft.de&lt;br&gt;</description>
@@ -6375,6 +6189,294 @@ at 30/07/2012 17:45:58</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DPAK">
+<wire x1="3.2766" y1="2.4654" x2="3.277" y2="-3.729" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-3.729" x2="-3.277" y2="-3.729" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-3.729" x2="-3.2766" y2="2.4654" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="2.465" x2="3.2774" y2="2.4646" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="2.567" x2="-2.5654" y2="3.2782" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.2782" x2="-2.1082" y2="3.7354" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="3.7354" x2="2.1082" y2="3.7354" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="3.7354" x2="2.5654" y2="3.2782" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.2782" x2="2.5654" y2="2.567" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="2.567" x2="-2.5654" y2="2.567" width="0.2032" layer="51"/>
+<rectangle x1="-2.7178" y1="-6.7262" x2="-1.8542" y2="-3.8306" layer="51"/>
+<rectangle x1="1.8542" y1="-6.7262" x2="2.7178" y2="-3.8306" layer="51"/>
+<rectangle x1="-0.4318" y1="-4.5926" x2="0.4318" y2="-3.8306" layer="21"/>
+<smd name="1" x="-2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="0" y="1.588" dx="4.826" dy="5.715" layer="1"/>
+<text x="-3.81" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="2.567"/>
+<vertex x="-2.5654" y="3.2782"/>
+<vertex x="-2.1082" y="3.7354"/>
+<vertex x="2.1082" y="3.7354"/>
+<vertex x="2.5654" y="3.2782"/>
+<vertex x="2.5654" y="2.567"/>
+</polygon>
+</package>
+<package name="SOIC-8">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
+<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
+<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
+<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
+<circle x="-2.6924" y="-1.8796" radius="0.127" width="0.2286" layer="21"/>
+<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
+<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
+<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
+<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
+<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
+<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
+<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
+<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
+</package>
+<package name="SOT323">
+<wire x1="1.1224" y1="0.6604" x2="1.1224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.1224" y1="-0.6604" x2="-1.1224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.1224" y1="-0.6604" x2="-1.1224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.1224" y1="0.6604" x2="1.1224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.673" y1="0.7" x2="-1.1" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="0.7" x2="-1.1" y2="-0.354" width="0.2032" layer="21"/>
+<wire x1="0.673" y1="0.7" x2="1.1" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.354" width="0.2032" layer="21"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.7" dy="0.7" layer="1"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.7" dy="0.7" layer="1"/>
+<smd name="3" x="0" y="0.925" dx="0.7" dy="0.7" layer="1"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TO220V">
+<description>&lt;b&gt;TO 220 Vertical&lt;/b&gt; Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
+<wire x1="-5.08" y1="2.032" x2="-5.08" y2="-0.381" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.032" x2="5.08" y2="-0.381" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.032" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="2.032" x2="-5.08" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="3.048" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-0.381" x2="-4.191" y2="-1.27" width="0.2032" layer="21" curve="92.798868"/>
+<wire x1="4.191" y1="-1.27" x2="5.08" y2="-0.381" width="0.2032" layer="21" curve="92.798868"/>
+<wire x1="-4.191" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.191" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<rectangle x1="-5.08" y1="2.032" x2="5.08" y2="3.048" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.334" y="0.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="5.334" y="0.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT23-3">
+<description>SOT23-3</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TO-263/D2PAK">
+<wire x1="5" y1="-1" x2="5" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="5" y1="-3.4" x2="-5" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-3.4" x2="-5" y2="-1" width="0.2032" layer="21"/>
+<rectangle x1="-3.27" y1="-7.6" x2="-1.81" y2="-3.4" layer="51"/>
+<rectangle x1="-0.73" y1="-4.9" x2="0.73" y2="-3.4" layer="21"/>
+<smd name="1" x="-2.54" y="-7.045" dx="2.32" dy="3.81" layer="1"/>
+<smd name="3" x="2.54" y="-7.045" dx="2.32" dy="3.81" layer="1"/>
+<smd name="2" x="0" y="4.125" dx="11" dy="9.65" layer="1"/>
+<text x="-5.715" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="5.715" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+<polygon width="0.1998" layer="51">
+<vertex x="-5" y="6.25"/>
+<vertex x="-5" y="7"/>
+<vertex x="-1" y="7.65"/>
+<vertex x="1" y="7.65"/>
+<vertex x="5" y="7"/>
+<vertex x="5" y="6.25"/>
+</polygon>
+<wire x1="-5" y1="6.25" x2="-5" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="5" y1="-0.65" x2="5" y2="6.25" width="0.127" layer="51"/>
+<wire x1="-1.81" y1="-3.4" x2="-1.81" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="-1.81" y1="-7.6" x2="-3.27" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="-3.27" y1="-7.6" x2="-3.27" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="-3.27" y1="-3.4" x2="-1.81" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="1.81" y1="-3.4" x2="1.81" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="1.81" y1="-7.6" x2="3.27" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="3.27" y1="-7.6" x2="3.27" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="3.27" y1="-3.4" x2="1.81" y2="-3.4" width="0.127" layer="51"/>
+<rectangle x1="1.81" y1="-7.6" x2="3.27" y2="-3.4" layer="51"/>
+<rectangle x1="-3.27" y1="-4.9" x2="-1.81" y2="-3.4" layer="21"/>
+<rectangle x1="1.81" y1="-4.9" x2="3.27" y2="-3.4" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LABELED-NMOS">
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="0.6858" x2="-1.9812" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.2954" x2="-1.9812" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.905" x2="-1.9812" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="2.54" x2="-1.9812" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="1.8034" x2="-1.9812" y2="1.0922" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.7112" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="1.8034" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.8034" x2="2.54" y2="0.5588" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.5588" x2="3.302" y2="0.5588" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.5588" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="-0.7112"/>
+<vertex x="2.54" y="0.5588"/>
+<vertex x="3.302" y="-0.7112"/>
+</polygon>
+<wire x1="3.302" y1="0.5588" x2="3.4798" y2="0.7366" width="0.1524" layer="94"/>
+<wire x1="1.6002" y1="0.381" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.9812" y="0"/>
+<vertex x="-1.2192" y="0.254"/>
+<vertex x="-1.2192" y="-0.254"/>
+</polygon>
+<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOSFET-NCH" prefix="Q">
+<description>&lt;h3&gt;N-channel MOSFETs&lt;/h3&gt;
+&lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;</description>
+<gates>
+<gate name="NMOS" symbol="LABELED-NMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-FDD8780" package="DPAK">
+<connects>
+<connect gate="NMOS" pin="D" pad="4"/>
+<connect gate="NMOS" pin="G" pad="1"/>
+<connect gate="NMOS" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-09984"/>
+<attribute name="VALUE" value="35A/25V/8.5mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-FDS6630A" package="SOIC-8">
+<connects>
+<connect gate="NMOS" pin="D" pad="5 6 7 8"/>
+<connect gate="NMOS" pin="G" pad="4"/>
+<connect gate="NMOS" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-08089"/>
+<attribute name="VALUE" value="6.5A/30V/38mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-2N7002PW" package="SOT323">
+<connects>
+<connect gate="NMOS" pin="D" pad="3"/>
+<connect gate="NMOS" pin="G" pad="1"/>
+<connect gate="NMOS" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-11151"/>
+<attribute name="VALUE" value="310mA/60V/1.6Ω"/>
+</technology>
+</technologies>
+</device>
+<device name="-FQP30N06L" package="TO220V">
+<connects>
+<connect gate="NMOS" pin="D" pad="2"/>
+<connect gate="NMOS" pin="G" pad="1"/>
+<connect gate="NMOS" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-10060"/>
+<attribute name="VALUE" value="60V/32A/35mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-BSS138" package="SOT23-3">
+<connects>
+<connect gate="NMOS" pin="D" pad="3"/>
+<connect gate="NMOS" pin="G" pad="1"/>
+<connect gate="NMOS" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-00830"/>
+<attribute name="VALUE" value="220mA/50V/3.5Ω"/>
+</technology>
+</technologies>
+</device>
+<device name="-PSMN7R0" package="TO-263/D2PAK">
+<connects>
+<connect gate="NMOS" pin="D" pad="2"/>
+<connect gate="NMOS" pin="G" pad="1"/>
+<connect gate="NMOS" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-12437"/>
+<attribute name="VALUE" value="100A/100V/6.8mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-AO3404A" package="SOT23-3">
+<connects>
+<connect gate="NMOS" pin="D" pad="3"/>
+<connect gate="NMOS" pin="G" pad="1"/>
+<connect gate="NMOS" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRAN-12988"/>
+<attribute name="VALUE" value="5.8A/30V/35mΩ"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6416,24 +6518,6 @@ at 30/07/2012 17:45:58</description>
 <part name="LED_DISPLAY_IN" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="STATUS_LED_1" library="led" deviceset="GM1WA55311A" device=""/>
 <part name="STATUS_LED_2" library="led" deviceset="GM1WA55311A" device=""/>
-<part name="A" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="B" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="C" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="D" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="8" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="E" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="9" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="0" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="F" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="*" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
-<part name="CLR" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCH" device="-SI2309DS" value="BSS84L"/>
 <part name="R4" library="eagle-ltspice" deviceset="R" device="" value="100"/>
 <part name="R5" library="eagle-ltspice" deviceset="R" device="" value="100"/>
 <part name="DECODER_SELECT" library="74ac-logic" deviceset="74AC11239" device="D"/>
@@ -6441,6 +6525,24 @@ at 30/07/2012 17:45:58</description>
 <part name="DECODER_2" library="Texas Instruments_By_element14_Batch_1" deviceset="74AC11138D" device=""/>
 <part name="DECODER_3" library="Texas Instruments_By_element14_Batch_1" deviceset="74AC11138D" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="A" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="B" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="C" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="8" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="D" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="E" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="9" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="0" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="CLR" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="*" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
+<part name="F" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="BSS138_F085"/>
 </parts>
 <sheets>
 <sheet>
@@ -6505,24 +6607,6 @@ at 30/07/2012 17:45:58</description>
 <instance part="LED_DISPLAY_IN" gate="1" x="99.06" y="246.38" rot="R270"/>
 <instance part="STATUS_LED_1" gate="G$1" x="25.4" y="238.76" rot="R90"/>
 <instance part="STATUS_LED_2" gate="G$1" x="25.4" y="215.9" rot="R90"/>
-<instance part="A" gate="G$1" x="185.42" y="91.44"/>
-<instance part="1" gate="G$1" x="185.42" y="129.54"/>
-<instance part="2" gate="G$1" x="185.42" y="162.56"/>
-<instance part="B" gate="G$1" x="208.28" y="91.44"/>
-<instance part="3" gate="G$1" x="208.28" y="129.54"/>
-<instance part="4" gate="G$1" x="208.28" y="162.56"/>
-<instance part="C" gate="G$1" x="231.14" y="91.44"/>
-<instance part="5" gate="G$1" x="231.14" y="129.54"/>
-<instance part="6" gate="G$1" x="231.14" y="162.56"/>
-<instance part="D" gate="G$1" x="254" y="91.44"/>
-<instance part="7" gate="G$1" x="254" y="129.54"/>
-<instance part="8" gate="G$1" x="254" y="162.56"/>
-<instance part="E" gate="G$1" x="276.86" y="91.44"/>
-<instance part="9" gate="G$1" x="276.86" y="129.54"/>
-<instance part="0" gate="G$1" x="276.86" y="162.56"/>
-<instance part="F" gate="G$1" x="299.72" y="91.44"/>
-<instance part="*" gate="G$1" x="299.72" y="129.54"/>
-<instance part="CLR" gate="G$1" x="299.72" y="162.56"/>
 <instance part="R4" gate="G$1" x="58.42" y="238.76"/>
 <instance part="R5" gate="G$1" x="48.26" y="228.6" rot="R90"/>
 <instance part="DECODER_SELECT" gate="A" x="104.14" y="139.7"/>
@@ -6531,6 +6615,24 @@ at 30/07/2012 17:45:58</description>
 <instance part="DECODER_3" gate="A" x="304.8" y="208.28" rot="MR270"/>
 <instance part="GND6" gate="1" x="193.04" y="228.6" rot="R270"/>
 <instance part="DECODER_SELECT" gate="P" x="25.4" y="144.78" rot="R90"/>
+<instance part="A" gate="NMOS" x="185.42" y="91.44"/>
+<instance part="1" gate="NMOS" x="185.42" y="129.54"/>
+<instance part="2" gate="NMOS" x="185.42" y="162.56"/>
+<instance part="4" gate="NMOS" x="208.28" y="162.56"/>
+<instance part="3" gate="NMOS" x="208.28" y="129.54"/>
+<instance part="B" gate="NMOS" x="208.28" y="91.44"/>
+<instance part="C" gate="NMOS" x="231.14" y="91.44"/>
+<instance part="5" gate="NMOS" x="231.14" y="129.54"/>
+<instance part="6" gate="NMOS" x="231.14" y="162.56"/>
+<instance part="8" gate="NMOS" x="254" y="162.56"/>
+<instance part="7" gate="NMOS" x="254" y="129.54"/>
+<instance part="D" gate="NMOS" x="254" y="91.44"/>
+<instance part="E" gate="NMOS" x="276.86" y="91.44"/>
+<instance part="9" gate="NMOS" x="276.86" y="129.54"/>
+<instance part="0" gate="NMOS" x="276.86" y="162.56"/>
+<instance part="CLR" gate="NMOS" x="299.72" y="162.56"/>
+<instance part="*" gate="NMOS" x="299.72" y="129.54"/>
+<instance part="F" gate="NMOS" x="299.72" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -6786,12 +6888,12 @@ at 30/07/2012 17:45:58</description>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="1"/>
 <wire x1="170.18" y1="63.5" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="63.5" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="A" gate="G$1" pin="D"/>
-<pinref part="B" gate="G$1" pin="D"/>
-<pinref part="C" gate="G$1" pin="D"/>
-<pinref part="D" gate="G$1" pin="D"/>
-<pinref part="E" gate="G$1" pin="D"/>
-<pinref part="F" gate="G$1" pin="D"/>
+<pinref part="A" gate="NMOS" pin="D"/>
+<pinref part="B" gate="NMOS" pin="D"/>
+<pinref part="C" gate="NMOS" pin="D"/>
+<pinref part="D" gate="NMOS" pin="D"/>
+<pinref part="E" gate="NMOS" pin="D"/>
+<pinref part="F" gate="NMOS" pin="D"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6817,12 +6919,12 @@ at 30/07/2012 17:45:58</description>
 <wire x1="172.72" y1="66.04" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
 <junction x="187.96" y="139.7"/>
-<pinref part="1" gate="G$1" pin="D"/>
-<pinref part="3" gate="G$1" pin="D"/>
-<pinref part="5" gate="G$1" pin="D"/>
-<pinref part="7" gate="G$1" pin="D"/>
-<pinref part="9" gate="G$1" pin="D"/>
-<pinref part="*" gate="G$1" pin="D"/>
+<pinref part="1" gate="NMOS" pin="D"/>
+<pinref part="3" gate="NMOS" pin="D"/>
+<pinref part="5" gate="NMOS" pin="D"/>
+<pinref part="7" gate="NMOS" pin="D"/>
+<pinref part="9" gate="NMOS" pin="D"/>
+<pinref part="*" gate="NMOS" pin="D"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6848,12 +6950,12 @@ at 30/07/2012 17:45:58</description>
 <wire x1="175.26" y1="68.58" x2="175.26" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="175.26" x2="187.96" y2="175.26" width="0.1524" layer="91"/>
 <junction x="187.96" y="175.26"/>
-<pinref part="2" gate="G$1" pin="D"/>
-<pinref part="4" gate="G$1" pin="D"/>
-<pinref part="6" gate="G$1" pin="D"/>
-<pinref part="8" gate="G$1" pin="D"/>
-<pinref part="0" gate="G$1" pin="D"/>
-<pinref part="CLR" gate="G$1" pin="D"/>
+<pinref part="2" gate="NMOS" pin="D"/>
+<pinref part="4" gate="NMOS" pin="D"/>
+<pinref part="6" gate="NMOS" pin="D"/>
+<pinref part="8" gate="NMOS" pin="D"/>
+<pinref part="0" gate="NMOS" pin="D"/>
+<pinref part="CLR" gate="NMOS" pin="D"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -6872,9 +6974,9 @@ at 30/07/2012 17:45:58</description>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="9"/>
 <wire x1="281.94" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="63.5" x2="246.38" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="E" gate="G$1" pin="S"/>
-<pinref part="9" gate="G$1" pin="S"/>
-<pinref part="0" gate="G$1" pin="S"/>
+<pinref part="E" gate="NMOS" pin="S"/>
+<pinref part="9" gate="NMOS" pin="S"/>
+<pinref part="0" gate="NMOS" pin="S"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -6893,9 +6995,9 @@ at 30/07/2012 17:45:58</description>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="10"/>
 <wire x1="304.8" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="60.96" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="*" gate="G$1" pin="S"/>
-<pinref part="F" gate="G$1" pin="S"/>
-<pinref part="CLR" gate="G$1" pin="S"/>
+<pinref part="CLR" gate="NMOS" pin="S"/>
+<pinref part="*" gate="NMOS" pin="S"/>
+<pinref part="F" gate="NMOS" pin="S"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -6918,9 +7020,9 @@ at 30/07/2012 17:45:58</description>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="4"/>
 <wire x1="233.68" y1="71.12" x2="233.68" y2="58.42" width="0.1524" layer="91"/>
 <junction x="233.68" y="71.12"/>
-<pinref part="A" gate="G$1" pin="S"/>
-<pinref part="1" gate="G$1" pin="S"/>
-<pinref part="2" gate="G$1" pin="S"/>
+<pinref part="A" gate="NMOS" pin="S"/>
+<pinref part="1" gate="NMOS" pin="S"/>
+<pinref part="2" gate="NMOS" pin="S"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6939,9 +7041,9 @@ at 30/07/2012 17:45:58</description>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="7"/>
 <wire x1="236.22" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="76.2" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="5" gate="G$1" pin="S"/>
-<pinref part="C" gate="G$1" pin="S"/>
-<pinref part="6" gate="G$1" pin="S"/>
+<pinref part="C" gate="NMOS" pin="S"/>
+<pinref part="5" gate="NMOS" pin="S"/>
+<pinref part="6" gate="NMOS" pin="S"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -6960,9 +7062,9 @@ at 30/07/2012 17:45:58</description>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="6"/>
 <wire x1="213.36" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="73.66" x2="238.76" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="B" gate="G$1" pin="S"/>
-<pinref part="3" gate="G$1" pin="S"/>
-<pinref part="4" gate="G$1" pin="S"/>
+<pinref part="4" gate="NMOS" pin="S"/>
+<pinref part="3" gate="NMOS" pin="S"/>
+<pinref part="B" gate="NMOS" pin="S"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -7076,7 +7178,6 @@ at 30/07/2012 17:45:58</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="D" gate="G$1" pin="S"/>
 <wire x1="256.54" y1="86.36" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="116.84" x2="259.08" y2="81.28" width="0.1524" layer="91"/>
@@ -7089,10 +7190,11 @@ at 30/07/2012 17:45:58</description>
 <wire x1="259.08" y1="66.04" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="KEYPAD_CONNECTOR_OUT" gate="1" pin="8"/>
 <wire x1="243.84" y1="66.04" x2="243.84" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="7" gate="G$1" pin="S"/>
-<pinref part="8" gate="G$1" pin="S"/>
 <wire x1="256.54" y1="81.28" x2="259.08" y2="81.28" width="0.1524" layer="91"/>
 <junction x="259.08" y="81.28"/>
+<pinref part="8" gate="NMOS" pin="S"/>
+<pinref part="7" gate="NMOS" pin="S"/>
+<pinref part="D" gate="NMOS" pin="S"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -7234,11 +7336,11 @@ at 30/07/2012 17:45:58</description>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="A" gate="G$1" pin="G"/>
 <wire x1="180.34" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="88.9" x2="142.24" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="DECODER_1" gate="A" pin="Y0"/>
 <wire x1="142.24" y1="190.5" x2="203.2" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="A" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -7247,161 +7349,161 @@ at 30/07/2012 17:45:58</description>
 <wire x1="205.74" y1="190.5" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="187.96" x2="144.78" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="187.96" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<pinref part="1" gate="G$1" pin="G"/>
 <wire x1="144.78" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<pinref part="1" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="2" gate="G$1" pin="G"/>
 <wire x1="180.34" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="160.02" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="DECODER_1" gate="A" pin="Y2"/>
 <wire x1="147.32" y1="185.42" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="185.42" x2="208.28" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="2" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="B" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="88.9" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="DECODER_1" gate="A" pin="Y3"/>
 <wire x1="193.04" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="182.88" x2="210.82" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="B" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="3" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="127" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="DECODER_1" gate="A" pin="Y4"/>
 <wire x1="195.58" y1="180.34" x2="213.36" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="180.34" x2="213.36" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="3" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="4" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="160.02" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="DECODER_1" gate="A" pin="Y5"/>
 <wire x1="198.12" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="177.8" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="4" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="C" gate="G$1" pin="G"/>
 <pinref part="DECODER_1" gate="A" pin="Y6"/>
 <wire x1="226.06" y1="88.9" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="88.9" x2="218.44" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="C" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="5" gate="G$1" pin="G"/>
 <pinref part="DECODER_1" gate="A" pin="Y7"/>
 <wire x1="226.06" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="127" x2="220.98" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="5" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="6" gate="G$1" pin="G"/>
 <wire x1="226.06" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="160.02" x2="223.52" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y0"/>
 <wire x1="223.52" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="6" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="D" gate="G$1" pin="G"/>
 <wire x1="248.92" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="88.9" x2="238.76" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y1"/>
 <wire x1="238.76" y1="187.96" x2="251.46" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="187.96" x2="251.46" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="D" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="7" gate="G$1" pin="G"/>
 <wire x1="248.92" y1="127" x2="241.3" y2="127" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="127" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y2"/>
 <wire x1="241.3" y1="185.42" x2="254" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="254" y1="185.42" x2="254" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="7" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="8" gate="G$1" pin="G"/>
 <wire x1="248.92" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="160.02" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y3"/>
 <wire x1="243.84" y1="182.88" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="182.88" x2="256.54" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="8" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="E" gate="G$1" pin="G"/>
 <wire x1="271.78" y1="88.9" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="88.9" x2="261.62" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y4"/>
 <wire x1="261.62" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="182.88" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="E" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="9" gate="G$1" pin="G"/>
 <wire x1="271.78" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="127" x2="264.16" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y5"/>
 <wire x1="264.16" y1="185.42" x2="261.62" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="185.42" x2="261.62" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="9" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="0" gate="G$1" pin="G"/>
 <wire x1="271.78" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="160.02" x2="266.7" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y6"/>
 <wire x1="266.7" y1="187.96" x2="264.16" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="187.96" x2="264.16" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="0" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="F" gate="G$1" pin="G"/>
 <wire x1="294.64" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="88.9" x2="284.48" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="DECODER_2" gate="A" pin="Y7"/>
 <wire x1="284.48" y1="190.5" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="F" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="*" gate="G$1" pin="G"/>
 <wire x1="294.64" y1="127" x2="287.02" y2="127" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="127" x2="287.02" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="DECODER_3" gate="A" pin="Y0"/>
 <wire x1="287.02" y1="190.5" x2="294.64" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="*" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="CLR" gate="G$1" pin="G"/>
 <wire x1="294.64" y1="160.02" x2="289.56" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="160.02" x2="289.56" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="DECODER_3" gate="A" pin="Y1"/>
 <wire x1="289.56" y1="187.96" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="187.96" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="CLR" gate="NMOS" pin="G"/>
 </segment>
 </net>
 </nets>

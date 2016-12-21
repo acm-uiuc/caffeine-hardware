@@ -7407,6 +7407,20 @@ at 30/07/2012 17:45:58</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,147.32,233.68,U1,VCC,+3V3,,,"/>
+<approved hash="114,1,104.396,138.367,DECODER_SELECT,B,G,,,"/>
+<approved hash="114,1,104.396,138.367,DECODER_SELECT,B,B,,,"/>
+<approved hash="114,1,104.396,138.367,DECODER_SELECT,B,A,,,"/>
+<approved hash="104,1,17.78,144.78,DECODER_SELECTP,VCC,+3V3,,,"/>
+<approved hash="104,1,203.2,226.06,DECODER_1,VCC,+3V3,,,"/>
+<approved hash="104,1,248.92,226.06,DECODER_2,VCC,+3V3,,,"/>
+<approved hash="104,1,294.64,226.06,DECODER_3,VCC,+3V3,,,"/>
+<approved hash="113,1,196.422,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,119.101,233.926,CFG,,,,,"/>
+<approved hash="113,1,238.955,65.9016,KEYPAD_CONNECTOR_OUT,,,,,"/>
+<approved hash="113,1,99.2547,236.736,LED_DISPLAY_IN,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
